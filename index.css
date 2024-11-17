@@ -2,24 +2,36 @@
 body {
     background-color: #0d6efd; /* Bootstrap primary blue or adjust to your preferred shade */
     color: white; /* Ensure readable text */
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Base Section Styling for Consistency */
 .section-container {
-    background-color: rgba(19, 18, 18, 0.9); /* Slight transparency for blending with body background */
-    color: white; /* Ensure text contrast */
+    background-color: rgba(13, 110, 253, 0.9); /* Blue with transparency */
+    color: white;
     padding: 40px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Smooth shadow */
-    margin-bottom: 50px; /* Spacing between sections */
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Unified shadow effect */
+    margin-bottom: 50px;
 }
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff; /* Bright white */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Subtle text lift */
+}
+
 
 /* Specific Adjustments for Welcome Section */
 #Welcome {
-    background-color: rgba(13, 110, 253, 0.9); /* Slightly transparent Bootstrap primary blue */
-    padding: 40px;
-    margin-top: 20px; /* Reduce top margin */
+    background-color: rgba(19, 18, 18, 0.8); /* Slightly darker for emphasis */
+    padding: 50px;
+    margin-top: 30px;
+    border-left: 5px solid #fff; /* Highlighted border */
 }
+
 
 /* Specific Adjustments for History Section */
 #History {
@@ -54,20 +66,21 @@ body {
 
 /* Newspaper clipping effect */
 .newspaper-clip {
-    background-color: rgba(19, 18, 18, 0.8); /* Slight transparency for blending */
+    position: relative;
+    background: rgba(255, 255, 255, 0.9); /* Light background */
     padding: 10px;
-    border: 1px solid rgba(19, 18, 18, 0.7); /* Subtle border */
-    border-radius: 8px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15); /* Light shadow for lift effect */
-    transform: rotate(-1deg); /* Slight tilt */
-    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transform: rotate(-1deg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect to emphasize the image */
 .newspaper-clip:hover {
-    transform: rotate(0deg) scale(1.03); /* Straighten and zoom */
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    transform: rotate(0deg);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
 }
+
 
 /* Decorative tape effect at the top */
 .newspaper-clip::before {
@@ -91,4 +104,56 @@ body {
     height: 10px;
     background: rgba(255, 255, 0, 0.8); /* Yellowish tape */
     transform: rotate(10deg);
+}
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.7); /* Subtle white */
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: white; /* Brighten for hover and active state */
+    text-decoration: underline;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift effect */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    border-radius: 8px; /* Consistent image rounding */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: linear-gradient(45deg, #0d6efd, #6610f2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    position: relative;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffc107; /* Bright yellow on hover */
 }
