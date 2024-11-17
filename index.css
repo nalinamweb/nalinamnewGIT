@@ -4,12 +4,42 @@ body {
     color: white; /* Ensure readable text */
 }
 
+/* Base Section Styling for Consistency */
+.section-container {
+    background-color: rgba(19, 18, 18, 0.9); /* Slight transparency for blending with body background */
+    color: white; /* Ensure text contrast */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Smooth shadow */
+    margin-bottom: 50px; /* Spacing between sections */
+}
+
+/* Specific Adjustments for Welcome Section */
 #Welcome {
     background-color: rgba(13, 110, 253, 0.9); /* Slightly transparent Bootstrap primary blue */
     padding: 40px;
+    margin-top: 20px; /* Reduce top margin */
+}
+
+/* Specific Adjustments for History Section */
+#History {
+    background-color: rgba(13, 110, 253, 0.9); /* Slightly transparent Bootstrap primary blue */
+    padding: 40px;
+    margin-top: 20px; /* Reduce top margin */
+}
+
+/* Additional Utility for Cards Inside Sections */
+.section-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
     border-radius: 10px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Smooth shadow */
-    margin-bottom: 50px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-card:hover {
+    transform: scale(1.03); /* Slight zoom on hover */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 
