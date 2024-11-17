@@ -39,10 +39,9 @@ h1, h2 {
 
 /* Specific Adjustments for Welcome Section */
 #Welcome {
-    background-color: rgba(19, 18, 18, 0.8); /* Slightly darker for emphasis */
-    padding: 50px;
-    margin-top: 30px;
-    border-left: 5px solid #fff; /* Highlighted border */
+    background-color: rgba(13, 110, 253, 0.9); /* Slightly transparent Bootstrap primary blue */
+    padding: 40px;
+    margin-top: 20px; /* Reduce top margin */
 }
 
 
