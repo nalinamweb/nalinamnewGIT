@@ -1,171 +1,185 @@
-/* Modify the body background */
-body {
-    background-color: #0d6efd; /* Bootstrap primary blue or adjust to your preferred shade */
-    color: white; /* Ensure readable text */
-    font-family: 'Roboto', sans-serif;
-}
 
-.section-container {
-    background-color: rgba(13, 110, 253, 0.9); /* Uniform transparent blue */
-    padding: 40px;
-    margin: 30px auto;
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
-    color: white;
-}
+    :root {
+        --primary: #0a4275;
+        --secondary: #6c757d;
+        --background: #0a4275;
+        --primary-transparent: rgba(10, 66, 117, 0.9);
+        --dark: #212529;
+        --light: #ffffff;
+        --tape-yellow: rgba(255, 255, 0, 0.8);
+    }
 
-.section-container h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-}
+    body {
+        background-color: var(--background);
+        color: var(--light);
+        font-family: 'Roboto', sans-serif;
+    }
 
-.section-container p, .section-container .card-text {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    text-align: center;
-}
+    .section-container {
+        background-color: var(--primary-transparent);
+        padding: 40px;
+        margin: 30px auto;
+        border-radius: 15px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        color: var(--light);
+    }
 
+    h1,
+    h2,
+    h5 {
+        font-weight: bold;
+        color: var(--light);
+        text-align: center;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    }
 
-h1, h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #fff; /* Bright white */
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Subtle text lift */
-}
+    .section-container p,
+    .section-container .card-text,
+    .text-center p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        text-align: center;
+    }
 
+    #Welcome,
+    #History,
+    #Press {
+        background-color: var(--primary-transparent);
+        padding: 40px;
+        margin-top: 20px;
+    }
 
-/* Specific Adjustments for Welcome Section */
-#Welcome {
-    background-color: rgba(13, 110, 253, 0.9); /* Slightly transparent Bootstrap primary blue */
-    padding: 40px;
-    margin-top: 20px; /* Reduce top margin */
-}
+    .section-card,
+    .card {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        transition: all 0.3s ease-in-out;
+    }
 
+    .section-card:hover,
+    .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    }
 
-/* Specific Adjustments for History Section */
-#History {
-    background-color: rgba(13, 110, 253, 0.9); /* Slightly transparent Bootstrap primary blue */
-    padding: 40px;
-    margin-top: 20px; /* Reduce top margin */
-}
+    .card-img-top {
+        border-radius: 8px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    }
 
-/* Additional Utility for Cards Inside Sections */
-.section-card {
-    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
-    border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    transition: all 0.3s ease-in-out;
-}
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
 
-.section-card:hover {
-    transform: scale(1.03); /* Slight zoom on hover */
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
-}
+    .navbar {
+        background-color: var(--dark) !important;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
 
+    .navbar-brand,
+    .nav-link {
+        color: rgba(255, 255, 255, 0.7);
+        transition: color 0.3s ease-in-out;
+    }
 
-/* Section container with slight transparency to blend with blue background */
-#Press {
-    background-color: rgba(19, 18, 18, 0.9); /* White with slight transparency */
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Smooth shadow */
-    margin-bottom: 50px; /* Add space below */
-}
+    .nav-link:hover,
+    .nav-link.active {
+        color: var(--light);
+        text-decoration: underline;
+    }
 
-/* Newspaper clipping effect */
-.newspaper-clip {
-    position: relative;
-    background: rgba(255, 255, 255, 0.9); /* Light background */
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-    transform: rotate(-1deg);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+    .btn {
+        margin: 0.3rem;
+        font-weight: 500;
+    }
 
-.newspaper-clip:hover {
-    transform: rotate(0deg);
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
-}
+    footer {
+        background: linear-gradient(45deg, #0a4275, #6610f2);
+        color: var(--light);
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        position: relative;
+    }
 
+    footer a {
+        color: var(--light);
+        margin: 0 10px;
+        transition: color 0.3s ease;
+    }
 
-/* Decorative tape effect at the top */
-.newspaper-clip::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: 15px;
-    width: 50px;
-    height: 10px;
-    background: rgba(255, 255, 0, 0.8); /* Yellowish tape */
-    transform: rotate(-15deg);
-}
+    footer a:hover {
+        color: #ffc107;
+    }
 
-/* Decorative tape effect at the bottom */
-.newspaper-clip::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    right: 15px;
-    width: 50px;
-    height: 10px;
-    background: rgba(255, 255, 0, 0.8); /* Yellowish tape */
-    transform: rotate(10deg);
-}
+    .newspaper-clip {
+        position: relative;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        transform: rotate(-1deg);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
-.navbar {
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
+    .newspaper-clip:hover {
+        transform: rotate(0deg);
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    }
 
-.nav-link {
-    color: rgba(255, 255, 255, 0.7); /* Subtle white */
-    transition: color 0.3s ease-in-out;
-}
+    .newspaper-clip::before {
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: 15px;
+        width: 50px;
+        height: 10px;
+        background: var(--tape-yellow);
+        transform: rotate(-15deg);
+    }
 
-.nav-link:hover, .nav-link.active {
-    color: white; /* Brighten for hover and active state */
-    text-decoration: underline;
-}
+    .newspaper-clip::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        right: 15px;
+        width: 50px;
+        height: 10px;
+        background: var(--tape-yellow);
+        transform: rotate(10deg);
+    }
 
-.card {
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+    table.table {
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.05);
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
 
-.card:hover {
-    transform: translateY(-10px); /* Lift effect */
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
-}
+    table.table th,
+    table.table td {
+        vertical-align: middle;
+    }
 
-.card-img-top {
-    border-radius: 8px; /* Consistent image rounding */
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-}
+    .table thead {
+        background-color: var(--dark);
+        color: var(--light);
+    }
 
-footer {
-    background: linear-gradient(45deg, #0d6efd, #6610f2);
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    position: relative;
-}
+    .carousel-inner img {
+        max-height: 550px;
+        object-fit: cover;
+    }
 
-footer a {
-    color: white;
-    margin: 0 10px;
-    transition: color 0.3s ease;
-}
+    .img-fluid.rounded.border {
+        max-height: 300px;
+        object-fit: cover;
+    }
 
-footer a:hover {
-    color: #ffc107; /* Bright yellow on hover */
-}

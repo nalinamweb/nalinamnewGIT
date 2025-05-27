@@ -1,0 +1,66 @@
+Lingo Game in Tamil - PARIPOORNA
+
+Introduction
+Lingo in Tamil is an educational game program designed for pleasure
+as well as to improve your tamil vocabulary. It is brought to you
+FREE of charge by Nalinam Tamil Computing - the producer of the popular
+FREE Nalinam Tamil Word Processor. The game is quite similar to 
+the ordinary Lingo played in English. It is easy to play and can
+give you days of fun and pleasure.
+
+Game Details
+   No of player    :  1  (may be played in a group)
+   Keyboard Layout : Nalinam Keyboard Layout (Press F1 in Paripoorna
+		     to get more details.)
+		     Easy to use once you have mastered it.
+		     Statistically proven to be the best Keyboard
+		     Layout in Tamil. It is similar to the popular
+		     keyboard layout of Nalinam Tamil Word Processor.
+
+Instructions
+1. Go to the Lingo subdirectory and type Lingo
+   C:\> cd lingo
+   C:\> lingo >lingo
+2. You'll see the intoduction screen. Press enter
+3. Type your name in Tamil and enter. Refer to the keyboard layout
+4. The lingo board will appear with the first letter printed.
+5. Type out your answer. ( 5 letter word )
+     a. If all the letters are correct it will give you another board
+   	of numbers where you'll be assigned a random number with a RED 
+   	background. The board would already have 5 numbers highlighted
+   	for you and you'll have your sixth number highlighted and you
+   	have a chance to get PARIPOORNA.
+      	Points are assigned as follows :
+        	 Correct at the first attempt  :  25 points
+       		 Correct at the second attempt :  20 points
+         	 Correct at the third attempt  :  15 points
+         	 Correct at the fourth attempt :  10 points
+          	 Correct at the fifth attempt  :   5 points
+      		 If PARIPOORNA (LINGO)         : 250 points
+   		 The maximum point you can get is 500.
+     b. If none of them is correct it will just beep
+     c. If any one is letter is at the correct position then
+        that letter will be brought down to the next line
+     d. If the letter exists but at the wrong position then
+        that particular letter will be highlighted in RED
+6. You are given 5 attempts for each round. Altogether there
+   are 10 rounds for each game. Your game can end if you
+   get PariPoorna at any round. At such you may go into
+   the fastest time record
+7. If you get the highest point then your name will go into
+   the champion's list. Your name can also go into the champion
+   list if you finished in the shortest time possible
+Note : This is the second Beta version. I would like to receive 
+suggestions and may be more rules which can make the game 
+more exciting.
+Sivagurunathan Chinniah
+9 - 9 -1995
+P.J. Community College
+No 21, Jalan Barat,
+46200 Petaling Jaya,
+Selangor,
+West Malaysia
+03-7558611(O)
+03-7808718(H)
+04-4778706(H)
+E-mail : sivagur@nalinam.pc.my

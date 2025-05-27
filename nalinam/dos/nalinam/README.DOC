@@ -1,0 +1,99 @@
+NALINAM TAMIL WORD PROCESSOR (VER 3.0)
+--------------------------------------
+This is the first Tamil Word Processing Program with a Tamil user interface.
+All your commands are in Tamil and it is user friendly. You don't have to 
+memorise commands. You just have to know Tamil to use the program and 
+very minimum computer knowledge. It is a freeware program. 
+I would indeed be happy if you could distribute Nalinam among your friends. 
+You can use it to type letters, documents and print with 10
+different fonts : small font, italic font, bold font, bold italic font 
+big font and many others. It has also the fastest keyboard layout ever 
+designed. With your eight fingers on the keyboard you can type almost 51% of 
+your document without lifting your fingers. It also allows you to create 
+your own fonts using the nalifont utility which comes together with the 
+nalinam program. You may modify existing fonts if you wish to do so. 
+You are always welcome to contact me for further assistance at the 
+following address:
+
+Sivagurunathan Chinniah
+P.J.Community College
+No 21, Jalan Barat
+46200 Petaling Jaya
+Selangor,
+West Malaysia
+
+Tel : 03-7558611(O)
+      03-7808718(H)
+      04-4778706(H)
+e-MAIL : sivagur@nalinam.pc.my
+
+There is also some Tamil song tunes to entertain you if you feel bored.
+And there is also a little game that lets you get use to the fastest 
+keyboard layout.
+
+A windows version of this program will be released soon. It will contain
+powerful features and far more flexible. A multimedia courseware is also on 
+the way. It will be fully in Tamil that teaches computing for the first time 
+user with animation, with voice output in Tamil, with Tamil text, and with 
+Tamil music will make the learning of computers exciting and fun! Please 
+contact me for further information. Infact, I would like to invite you to 
+join me to work together to bring a better product to the benefit of the 
+Tamil community and to promote the usage of Tamil.
+
+I am pleased to bring you this exciting program and I would like to hear
+from you. Please do not hesitate to comment and give suggestion to improve
+the program. For programmers, I may be able to give away my source codes too.
+
+User Manual
+-----------
+How to install to the hard disk
+a. Boot your disk
+b. Go to C:\>
+c. Place Nalinam disk into drive A or B
+d. Type the following
+   copy a:ainstall  ( if in disk in drive B then type copy b:binstall)
+   and press enter. Nalinam program, Nalifont and other necessary files
+   will be copied to Nalinam subdirectory in Drive C. 
+e. Now you can run Nalinam. 
+   called nalinam.
+
+How to use
+
+a. If Nalinam is already installed to the hard disk.
+   i.   At C:\> type cd nalinam (and Press enter)
+   ii.  Then type nalinam (and Press enter)
+   iii. Follow the instructions to use the program
+
+b. If you don't have a hard disk.
+   i.   Place Nalinam disk in drive a or b
+   ii.  Go to drive A:\> or B:\>
+   iii. Then type nalinam (and Press enter)
+   iv.  Follow the instructions to use the program
+
+c.  If you want to use the Nalifont utility, please do not hesitate to
+contact me
+
+Technical Specification for Nalinam Ver 3.0
+-----------------------------------
+
+You must have the following:
+1.  Hardware Requirements
+    a. Processor - 8088 or higher
+    b. VGA display card and preferably a VGA monitor
+    c. Memory - at least 640 KB
+    d. Optional : Hard disk with 1 MB if free space
+    e. 1.2MB of 1.44MB disk drive
+    f. Printer - any 24-pin printer 
+                    - NEC, Panasonic or Epson is recommended
+                    - Bubble jet printer
+                    - NEC SilentWriter Laser Printer (must run program from windows)
+
+2.  Software Requirements
+    a. DOS 3.1 or higher
+
+Thank you for your use of Nalinam Word Processor
+Hoping to hear from you
+
+Sincerely,
+
+Sivagurunathan Chinniah

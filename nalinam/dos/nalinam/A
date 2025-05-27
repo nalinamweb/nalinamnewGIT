@@ -1,0 +1,26 @@
+@echo off
+cls
+pic
+@echo The complete Nalinam software is going to be installed into your computer
+@echo .
+@echo .
+@echo .
+@echo This software includes the DOS, Windows 3.11 and Windows 95 version
+@echo .
+@echo .
+@echo .
+@echo Please read the readme.doc under the Nalinam directory for instructions
+@echo to set up the software after installation
+@echo .
+pause
+copy arj.exe c:\
+arj x -r -va -y -i nalinam.arj c:\
+copy readme.doc c:\nalinam
+c:
+cls
+@echo Congratulations!!
+@echo The complete Nalinam has been installed in your computer!!!
+pause
+cd\nalinam
+edit readme.doc
+cls

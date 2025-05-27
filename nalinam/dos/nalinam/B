@@ -1,0 +1,165 @@
+
+************************NALINAM TAMIL WORD PROCESSOR***************************
+
+Nalinam Tamil word processor written by Mr Sivaguru Chinniah:
+Installation Utility by Mr. A.Stephen:
+Last updated 9/9/96
+
+******************************************************************************
+
+1 - Versions installed in your computer:
+  a) Nalinam 4.21 for DOS
+  b) Nalinam 5.0 for Windows 3.1x
+  c) Nalinam 6.0 for Windows 95
+  d) Lingo DOS game
+
+------------------------------------------------------------------------------
+
+2 - Directory Layout
+  a) Nalinam 4.21 for DOS             [c:\nalinam\dos\*.*]
+  b) Nalinam 5.0 for Windows 3.1x     [c:\nalinam\win311\*.*]
+  c) Nalinam 6.0 for Windows 95       [c:\nalinam\win95\*.*]    
+  d) Lingo DOS game                   [c:\nalinam\lingo\*.*]
+
+------------------------------------------------------------------------------
+
+3 - Software setup
+a) Nalinam 4.21 for DOS
+  This is the first Tamil Word Processing Program with a Tamil user interface.
+  All your commands are in Tamil and it is user friendly. You don't have to 
+  memorise commands. You just have to know Tamil to use the program and 
+  very minimum computer knowledge. It is a freeware program. 
+  I would indeed be happy if you could distribute Nalinam among your friends. 
+  You can use it to type letters, documents and print with 10
+  different fonts : small font, italic font, bold font, bold italic font 
+  big font and many others. It has also the fastest keyboard layout ever 
+  designed. With your eight fingers on the keyboard you can type almost 51% 
+  of your document without lifting your fingers. It also allows you to create 
+  your own fonts using the nalifont utility which comes together with the 
+  nalinam program. You may modify existing fonts if you wish to do so. 
+  There is also some Tamil song tunes to entertain you if you feel bored.
+  And there is also a little game that lets you get use to the fastest 
+  keyboard layout.
+
+  How to use
+  i.   At C:\> type cd nalinam (and Press enter)
+  ii.  At C:\nalinam> type cd dos (and Press enter)                             
+  iii. Then type nalinam (and Press enter)
+  iv.  Follow the instructions to use the program
+
+  Technical Specification for Nalinam Ver 4.21
+  -----------------------------------
+  You must have the following:
+  1.  Hardware Requirements
+    a. Processor - 8088 or higher
+    b. VGA display card and preferably a VGA monitor
+    c. Memory - at least 640 KB
+    d. Optional : Hard disk with 1 MB if free space
+    e. 1.2MB of 1.44MB disk drive
+    f. Printer - any 24-pin printer 
+                    - NEC, Panasonic or Epson is recommended
+                    - Bubble jet printer
+                    - NEC SilentWriter Laser Printer (from Windows)
+  2.  Software Requirements
+    a. DOS 3.1 or higher
+
+------------------------------------------------------------------------------
+
+b) Nalinam 5.0 for Windows 3.1x
+  This is the first Windows Tamil Word Processor with a Tamil user interface.
+  
+  ***IMPORTANT***
+  Please set up the fonts by running the fonts utility under the Windows
+  Control Panel. Please select the source directory for your fonts under 
+  the c:\Nalinam\Win311 directory and add the fonts to your Windows.
+  
+  Then add the Program icon to your Program Manager by selecting the 
+  File-New-ProgramItem-c:\Nalinam\Win311\Nalinam.exe
+
+  All your commands are in Tamil and it is user friendly. You don't have to 
+  memorise commands. You just have to know Tamil to use the program and 
+  very minimum computer knowledge. It is a freeware program. 
+  I would indeed be happy if you could distribute Nalinam among your friends. 
+  You can use it to type letters, documents and print with 4 different fonts. 
+  It has also the fastest keyboard layout ever designed. With your 
+  eight fingers on the keyboard you can type almost 51% of your document 
+  without lifting your fingers.  
+  
+  How to use(Please Install Fonts first)
+  i.   At C:\> type cd nalinam (and Press enter)
+  ii.  At C:\> type cd Win311 (and Press enter)                           
+  iii. Then type   win nalinam   (and Press enter)
+  iii. Follow the instructions to use the program
+  or
+  i.   Double click the Nalinam Icon under the Program Manager
+
+  Technical Specification for Nalinam Ver 5.0
+  -----------------------------------
+  You must have the following:
+  1.  Hardware Requirements
+    a. Processor - 80386 or higher
+    b. VGA display card and preferably a VGA monitor
+    c. Memory - at least 4 MB
+    d. Optional : Hard disk with 2 MB if free space
+    e. 1.2MB of 1.44MB disk drive
+    f. Printer - Any Printer under Windows
+  2.  Software Requirements
+    a. DOS 5.0 or higher
+    b. Windows 3.1 or higher
+
+-------------------------------------------------------------------------------
+
+c) Nalinam 6.0 for Windows 95
+  This is the first Windows 95 Tamil Word Processor with a Tamil interface.
+  
+  ***IMPORTANT***
+  Please set up the fonts by running the fonts utility under the Windows 95
+  Control Panel. Please select the source directory for your fonts under 
+  the c:\Nalinam\Win95 directory and add the fonts to your Windows95.
+  
+  Then add the Program folder to your Start Menu by selecting the EXE file
+  under c:\Nalinam\Win95\Nalinam6.exe
+
+  All your commands are in Tamil and it is user friendly. You don't have to 
+  memorise commands. You just have to know Tamil to use the program and 
+  very minimum computer knowledge. It is a freeware program. 
+  I would indeed be happy if you could distribute Nalinam among your friends. 
+  You can use it to type letters, documents and print with 2 different fonts 
+  and you can bold, underline, italic etc etc. You can cut and paste it to
+  any Windows program like Word, CorelDraw!, PageMaker etc etc. 
+  It has also the fastest keyboard layout ever designed. With your 
+  eight fingers on the keyboard you can type almost 51% of your document 
+  without lifting your fingers.  
+  
+  How to use(Please Install Fonts first)
+  i.   Run the Nalinam 6.0 short cut from the Start Button
+
+  Technical Specification for Nalinam Ver 6.0
+  -----------------------------------
+  You must have the following:
+  1.  Hardware Requirements
+    a. Processor - 80486 or higher
+    b. VGA display card and preferably a VGA monitor
+    c. Memory - at least 8 MB
+    d. Optional : Hard disk with 3 MB if free space
+    e. 1.2MB of 1.44MB disk drive
+    f. Printer - Any Printer under Windows
+  2.  Software Requirements
+    a. Only runs under Windows95
+
+******************************************************************************
+
+Please contact us for more details:
+
+Sivagurunathan Chinniah                     Stephen Abraham Loh
+P.J.Community College                       Electrical Engineering (3) UM
+No 21, Jalan Barat                          A6-8, Happy Mansion Flats,
+46200 Petaling Jaya                         Jalan 17/13,
+Selangor,                                   46400 Petaling Jaya,
+West Malaysia                               Selangor.
+Tel : 03-7558611(O)                         Tel : 03-7541044(H)
+      03-7808718(H)                         E-MAIL:e2lohys@fk.um.edu.my
+      04-4778706(H)
+E-MAIL : sivagur@nalinam.pc.my
+
+******************************************************************************
