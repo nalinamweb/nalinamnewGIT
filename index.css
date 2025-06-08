@@ -32,6 +32,18 @@ body {
     color: var(--light);
 }
 
+#MultimediaCDs .carousel-item img {
+  height: auto;
+  max-height: 400px;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
 h1,
 h2,
 h5 {
